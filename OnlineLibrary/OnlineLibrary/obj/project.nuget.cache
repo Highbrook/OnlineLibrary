@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QaAB/fTrC0CBfWtoy8A6ZnXgL5nLZmjdD96T2zT0Nn1x99CBobfcvGKHZYiXFHxVmScFGuRjap6kAhadXvaJXw==",
+  "dgSpecHash": "oEHtw2939Ebp5oYvdl6BAz1iaoU508yj2KcL8fYcQ3glE+X/pGt1H0TFiFSykTh8FFOs4I7qOGhXd3vo4U2cpw==",
   "success": true,
   "projectFilePath": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Highbrook\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
+    "C:\\Users\\Highbrook\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\Highbrook\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512"
   ],
   "logs": []

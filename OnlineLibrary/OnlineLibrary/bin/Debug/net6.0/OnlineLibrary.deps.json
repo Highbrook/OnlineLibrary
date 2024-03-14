@@ -9,13 +9,13 @@
       "OnlineLibrary/1.0.0": {
         "dependencies": {
           "FontAwesome": "4.7.0",
-          "bootstrap": "5.3.2"
+          "bootstrap": "5.3.3"
         },
         "runtime": {
           "OnlineLibrary.dll": {}
         }
       },
-      "bootstrap/5.3.2": {},
+      "bootstrap/5.3.3": {},
       "FontAwesome/4.7.0": {}
     }
   },
@@ -25,12 +25,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "bootstrap/5.3.2": {
+    "bootstrap/5.3.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m0/GEaLwE35B8P1xScFhwAsQi5o6kWPzOVPdGkoFwv+5YjmbgXFPQai71N5APwRCU52ZO4vHYWJ5DYSqKKgivw==",
-      "path": "bootstrap/5.3.2",
-      "hashPath": "bootstrap.5.3.2.nupkg.sha512"
+      "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
+      "path": "bootstrap/5.3.3",
+      "hashPath": "bootstrap.5.3.3.nupkg.sha512"
     },
     "FontAwesome/4.7.0": {
       "type": "package",

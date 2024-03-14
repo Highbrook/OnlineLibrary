@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/UnityProjects/Git/OnlineLibrary/OnlineLibrary/OnlineLibrary/Views/Home/Browse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcm93c2UuY3NodG1s
+[D:/UnityProjects/Git/OnlineLibrary/OnlineLibrary/OnlineLibrary/Views/BrowseBooks/Browse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlQm9va3NcQnJvd3NlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/UnityProjects/Git/OnlineLibrary/OnlineLibrary/OnlineLibrary/Views/Home/Index.cshtml]

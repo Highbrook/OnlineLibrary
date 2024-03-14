@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "bootstrap/5.3.2": {
+      "bootstrap/5.3.3": {
         "type": "package",
         "contentFiles": {
           "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
@@ -233,14 +233,14 @@
     }
   },
   "libraries": {
-    "bootstrap/5.3.2": {
-      "sha512": "m0/GEaLwE35B8P1xScFhwAsQi5o6kWPzOVPdGkoFwv+5YjmbgXFPQai71N5APwRCU52ZO4vHYWJ5DYSqKKgivw==",
+    "bootstrap/5.3.3": {
+      "sha512": "iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
       "type": "package",
-      "path": "bootstrap/5.3.2",
+      "path": "bootstrap/5.3.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bootstrap.5.3.2.nupkg.sha512",
+        "bootstrap.5.3.3.nupkg.sha512",
         "bootstrap.nuspec",
         "bootstrap.png",
         "content/Content/bootstrap-grid.css",
@@ -358,7 +358,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FontAwesome >= 4.7.0",
-      "bootstrap >= 5.3.2"
+      "bootstrap >= 5.3.3"
     ]
   },
   "packageFolders": {
@@ -406,7 +406,7 @@
           },
           "bootstrap": {
             "target": "Package",
-            "version": "[5.3.2, )"
+            "version": "[5.3.3, )"
           }
         },
         "imports": [
