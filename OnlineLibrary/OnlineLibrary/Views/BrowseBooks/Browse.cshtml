@@ -10,13 +10,23 @@
     <p>Use this page to browse books in the library.</p>
 
     <div class="mb-3" id="search">
-        <form method="post">
             <label for="search">Search for a Book</label>
-            <input type="search" class="form-control mb-3" id="book" asp-for="SearchQuery" required />
-            <button class="btn btn-danger" type="submit">FETCH BOOK</button>
-        </form>
+            <input type="text" class="form-control mb-3" id="inputField" required />
+        <button class="btn btn-danger" onclick="createApiCall(document.getElementById('inputField').value)">SEARCH BOOKS</button>
     </div>
 
     <div class="mb-3" id="result">
+        <ul id="books">
+        </ul>
     </div>
+
+
 </div>
+
+
+
+
+@section Scripts
+{
+    <script src="~/js/apicaller.js"></script>
+}

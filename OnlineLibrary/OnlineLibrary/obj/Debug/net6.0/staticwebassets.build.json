@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QEAQzx8CKyOkq9GigZ92dYofYtcVQZTAodByADcYV30=",
+  "Hash": "geas6VACLktOrO13L0FzEb6/SnXczMtbheUFBW/Svxk=",
   "Source": "OnlineLibrary",
   "BasePath": "_content/OnlineLibrary",
   "Mode": "Default",
@@ -927,6 +927,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\ApiCaller.js",
+      "SourceId": "OnlineLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\",
+      "BasePath": "_content/OnlineLibrary",
+      "RelativePath": "js/ApiCaller.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ApiCaller.js"
     },
     {
       "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\site.js",

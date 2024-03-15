@@ -3,7 +3,7 @@ using OnlineLibrary.Models.ViewModels;
 
 namespace OnlineLibrary.Controllers
 {
-    public class BrowseBooksController : Controller
+    public class BrowseBooksController: Controller
     {
         [HttpGet]
         public IActionResult Browse()

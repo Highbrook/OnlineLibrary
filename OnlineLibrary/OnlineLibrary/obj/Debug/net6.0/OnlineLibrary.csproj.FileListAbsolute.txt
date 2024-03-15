@@ -29,3 +29,8 @@ D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.pdb
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.genruntimeconfig.cache
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\ref\OnlineLibrary.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.csproj.AssemblyReference.cache
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.csproj.CopyComplete
