@@ -34,3 +34,9 @@ D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.csproj.AssemblyReference.cache
 D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\obj\Debug\net6.0\OnlineLibrary.csproj.CopyComplete
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Web.Razor.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\UnityProjects\Git\OnlineLibrary\OnlineLibrary\OnlineLibrary\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

@@ -1,7 +1,13 @@
 ﻿async function createApiCall(userInput) {
     const volumeAppendPrefix = 'https://www.googleapis.com/books/v1/volumes?q=';
-    const query = userInput.split(' ').join('+');
-    const volumeQuery = volumeAppendPrefix + query;
+    var query = "";
+    if (userInput != null && userInput != undefined) {
+        query = userInput.split(' ').join('+');
+    } else {
+        query = "";
+    }
+    const pagination = '&maxResults=40'
+    const volumeQuery = volumeAppendPrefix + query + pagination;
 
     httpRequest = new XMLHttpRequest();
 
@@ -26,12 +32,11 @@ async function alertContents() {
         //check response wasnt 500 or 404 error
         if (httpRequest.status === 200) {
 
-            // put response into var called obj
+            //put response into var called obj
             var obj = httpRequest.response;
             //turn obj into JSON data
             var parsed = JSON.parse(obj);
-            console.log(parsed);
-
+            var stringified = JSON.stringify(parsed);
 
             //loop through parsed object
             for (i = 0; i < parsed.items.length; i++) {
@@ -41,12 +46,31 @@ async function alertContents() {
                 var li = document.createElement('li');
                 li.innerHTML = "<strong>" + "Title: " + "</strong>" + parsed.items[i].volumeInfo.title;
                 ul.appendChild(li);
-
             }
+
+            //send JSON data to BrowseBooksController
+            $.ajax({
+                method: 'post',
+                url:'Browse',
+                //contentType: 'application/json; charset=utf-8',
+                dataType: 'text',
+                async: false,
+                data: JSON.stringify(obj),
+                success: function (data) {
+                    console.log("Successfully passed JSON to Controller: " + data);
+                },
+                error: function (data) {
+                    alert('error');
+                    console.log(data);
+                }
+            });
+
         } else {
             console.log('There was a problem with the request.');
         }
     }
 }
+
+
 
 
