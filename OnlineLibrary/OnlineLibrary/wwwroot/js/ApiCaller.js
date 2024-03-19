@@ -1,4 +1,7 @@
-﻿async function createApiCall(userInput) {
+﻿// No longer in use, this functionality has been moved to the BrowseBooksController.cs 
+// File will remain within the project for the time being.
+
+async function createApiCall(userInput) {
     const volumeAppendPrefix = 'https://www.googleapis.com/books/v1/volumes?q=';
     var query = "";
     if (userInput != null && userInput != undefined) {
@@ -35,35 +38,44 @@ async function alertContents() {
             //put response into var called obj
             var obj = httpRequest.response;
             //turn obj into JSON data
-            var parsed = JSON.parse(obj);
-            var stringified = JSON.stringify(parsed);
+            var parsed = await JSON.parse(obj);
+            //turn JSON data into string
+            var stringified = await JSON.stringify(parsed);
 
-            //loop through parsed object
-            for (i = 0; i < parsed.items.length; i++) {
+            try {
+                //loop through parsed object
+                for (i = 0; i < parsed.items.length; i++) {
 
-                var ul = document.getElementById('books');
-                //create li nodes and set their inner HTML to be titles of books returned from API
-                var li = document.createElement('li');
-                li.innerHTML = "<strong>" + "Title: " + "</strong>" + parsed.items[i].volumeInfo.title;
-                ul.appendChild(li);
+                    var ul = document.getElementById('books');
+                    //create li nodes and set their inner HTML to be titles of books returned from API
+                    var li = document.createElement('li');
+                    li.innerHTML = "<strong>" + "Title: " + "</strong>" + parsed.items[i].volumeInfo.title;
+                    ul.appendChild(li);
+                }
+            } catch (e) {
+                alert('Error: Something went wrong while looping through the parsed object.');
+                console.log(e);
+            } finally {
+                //send JSON data to BrowseBooksController
+                if (parsed != null && parsed != undefined) {
+                    $.ajax({
+                        method: 'post',
+                        url: 'Browse',
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        data: JSON.stringify(parsed),
+                        success: function (data) {
+                            console.log("Successfully passed JSON to Controller: " + data);
+                        },
+                        error: function (xhr, status, error) {
+                            alert('Error: Did not send AJAX to Controller.');
+                            console.log(error);
+                        }
+                    });
+                }
             }
 
-            //send JSON data to BrowseBooksController
-            $.ajax({
-                method: 'post',
-                url:'Browse',
-                //contentType: 'application/json; charset=utf-8',
-                dataType: 'text',
-                async: false,
-                data: JSON.stringify(obj),
-                success: function (data) {
-                    console.log("Successfully passed JSON to Controller: " + data);
-                },
-                error: function (data) {
-                    alert('error');
-                    console.log(data);
-                }
-            });
+            
 
         } else {
             console.log('There was a problem with the request.');

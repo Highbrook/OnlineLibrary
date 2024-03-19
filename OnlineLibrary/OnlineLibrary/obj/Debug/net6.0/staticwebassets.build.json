@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "geas6VACLktOrO13L0FzEb6/SnXczMtbheUFBW/Svxk=",
+  "Hash": "Ol9NqEvl8cSRTXERmz/1Kfm/V0N+uMytAJGxFP3hVcg=",
   "Source": "OnlineLibrary",
   "BasePath": "_content/OnlineLibrary",
   "Mode": "Default",
@@ -929,6 +929,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\images\\icons8-no-image-100.png",
+      "SourceId": "OnlineLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\",
+      "BasePath": "_content/OnlineLibrary",
+      "RelativePath": "images/icons8-no-image-100.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons8-no-image-100.png"
+    },
+    {
       "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\ApiCaller.js",
       "SourceId": "OnlineLibrary",
       "SourceType": "Discovered",
@@ -946,6 +965,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ApiCaller.js"
+    },
+    {
+      "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\BackToTopButton.js",
+      "SourceId": "OnlineLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\",
+      "BasePath": "_content/OnlineLibrary",
+      "RelativePath": "js/BackToTopButton.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\BackToTopButton.js"
     },
     {
       "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\site.js",

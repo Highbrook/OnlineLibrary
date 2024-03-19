@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OnlineLibrary.styles.css" asp-append-version="true" />
+    <link href='https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css' />
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js'></script>
 </head>
-<body>
+<body class="text-light bg-dark">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -17,13 +19,16 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="BrowseBooks" asp-action="Browse">Browse</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Admin Options
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="BrowseBooks" asp-action="Browse">Add Books</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -36,11 +41,13 @@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - OnlineLibrary - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/backtotopbutton.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

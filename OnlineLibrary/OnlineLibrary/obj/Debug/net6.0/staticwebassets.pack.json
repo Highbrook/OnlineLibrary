@@ -189,8 +189,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\images\\icons8-no-image-100.png",
+      "PackagePath": "staticwebassets\\images\\icons8-no-image-100.png"
+    },
+    {
       "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\ApiCaller.js",
       "PackagePath": "staticwebassets\\js\\ApiCaller.js"
+    },
+    {
+      "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\BackToTopButton.js",
+      "PackagePath": "staticwebassets\\js\\BackToTopButton.js"
     },
     {
       "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\site.js",

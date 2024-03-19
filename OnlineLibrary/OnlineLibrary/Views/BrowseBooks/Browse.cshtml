@@ -1,23 +1,61 @@
 ﻿@{
-    ViewData["Title"] = "Browse Books";
+    ViewData["Title"] = "Add Book";
 }
 
-@model OnlineLibrary.Models.ViewModels.BrowseBooksRequest
+@model List<OnlineLibrary.Models.ViewModels.BookViewModel>
 
 <div class="container">
     <h1>@ViewData["Title"]</h1>
 
-    <p>Use this page to browse books in the library.</p>
+    <p>Use this page to browse for books and add them to the Library.</p>
 
     <div class="mb-3" id="search">
-        <label for="search">Search for a Book</label>
-        <input type="text" class="form-control mb-3" id="inputField" required />
-        <button class="btn btn-danger" onclick="createApiCall(document.getElementById('inputField').value)">SEARCH BOOKS</button>
+        @using (Html.BeginForm("Browse", "BrowseBooks", FormMethod.Post))
+        {
+            <label class="mb-1">Search for a Book</label>
+            <input type="text" name="inputField" class="form-control mb-3" id="inputField" placeholder="Search" required />
+            <button class="btn btn-danger" type="submit">SEARCH BOOKS</button>
+        }
     </div>
 
     <div class="mb-3" id="result">
-        <ul id="books">
-        </ul>
+        @if (Model != null && Model.Any())
+        {
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-3 mb-3 mt-3 mb-sm-0">
+                        <div class="card bg-secondary" style="width: 18rem; height: 45rem;">
+                            @if (@item.thumbnail != null && @item.thumbnail != "" && item.thumbnail.Any())
+                            {
+                                <img src="@item.thumbnail" class="card-img-top" style="padding: 10px; height: 25rem; width: 18rem;" alt="image failed to load." onerror="this.src='https://icons8.com/icon/j1UxMbqzPi7n/no-image';">
+                            }
+                            else
+                            {
+                                <img src="/images/icons8-no-image-100.png" class="card-img-top" style="padding: 10px; height: 25rem; width: 18rem;" alt="no image found.">
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@item.title</h5>
+                                <p class="card-text text-wrap" style="justify-content:left;">Published: @item.publishedDate</p>
+                                @if (@item.shortDescription != null && @item.shortDescription != "" && item.shortDescription.Any())
+                                {
+                                    <p class="card-text text-wrap" style="justify-content:left;">@item.shortDescription</p>
+                                }
+                                else
+                                {
+                                    <p class="card-text text-wrap" style="justify-content:left;">No description was found for this book.</p>
+                                }
+                                <a class="btn btn-primary position-absolute bottom-0 start-2" style="margin-bottom: 1rem;"
+                                   asp-area="" 
+                                   asp-controller="BrowseBooks" 
+                                   asp-action="Edit"
+                                   asp-route-id="@item.apiBookID">Add Book to Library</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
     </div>
 
 
@@ -28,5 +66,4 @@
 
 @section Scripts
 {
-    <script src="~/js/apicaller.js"></script>
 }

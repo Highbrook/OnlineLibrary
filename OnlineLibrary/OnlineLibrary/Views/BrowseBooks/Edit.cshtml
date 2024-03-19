@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Edit Book";
+}
+
+@model List<OnlineLibrary.Models.ViewModels.BookViewModel>
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <p>Use this page to edit a book before adding it to the Library.</p>
+
+    <div class="mb-3" id="edit">
+        @using (Html.BeginForm("Edit", "BrowseBooks", FormMethod.Post))
+        {
+            @foreach (var item in Model)
+            {
+                <label class="form-label mt-2">Title</label>
+                <input type="text" id="title" class="form-control" value="@item.title" />
+                <label class="form-label mt-2">Publisher</label>
+                <input type="text" id="publisher" class="form-control" value="@item.publisher" />
+                <label class="form-label mt-2">Published date</label>
+                <input type="text" id="author" class="form-control" value="@item.publishedDate" />
+                <label class="form-label mt-2">Author</label>
+                @foreach (var author in @item.authors)
+                {
+                    <input type="text" id="name" class="form-control mb-2" value="@author" />
+                }
+                <label class="form-label mt-2">Number of pages</label>
+                <input type="text" id="pageNumber" class="form-control" value="@item.pageCount" />
+                <label class="form-label mt-2">Cover</label>
+                <input type="text" id="cover" class="form-control" value="@item.printType" />
+                <label class="form-label mt-2">Language</label>
+                <input type="text" id="language" class="form-control" value="@item.language" />
+                <label class="form-label mt-2">Description</label>
+                <textarea id="description" class="form-control">@item.description</textarea>
+
+                <!-- TODO Modify this part so that categories are atuall categories from the database -->
+                <label class="form-label mt-2">Categories</label>
+                @foreach (var category in @item.categories)
+                {
+                    <input type="text" id="name" class="form-control mb-2" value="@category" />
+                }
+            }
+        }
+    </div>
+
+    <div class="mb-3" id="result">
+    </div>
+
+
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        var editor = new FroalaEditor('#description');
+    </script>
+}
