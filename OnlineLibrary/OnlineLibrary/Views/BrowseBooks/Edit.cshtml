@@ -4,51 +4,132 @@
 
 @model List<OnlineLibrary.Models.ViewModels.BookViewModel>
 
-<div class="container">
-    <h1>@ViewData["Title"]</h1>
+<body onload="putInputValue()">
 
-    <p>Use this page to edit a book before adding it to the Library.</p>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
 
-    <div class="mb-3" id="edit">
+        <p>Use this page to edit a book before adding it to the Library.</p>
+
+        <div class="mb-3" id="edit">
         @using (Html.BeginForm("Edit", "BrowseBooks", FormMethod.Post))
         {
             @foreach (var item in Model)
             {
-                <label class="form-label mt-2">Title</label>
-                <input type="text" id="title" class="form-control" value="@item.title" />
-                <label class="form-label mt-2">Publisher</label>
-                <input type="text" id="publisher" class="form-control" value="@item.publisher" />
-                <label class="form-label mt-2">Published date</label>
-                <input type="text" id="author" class="form-control" value="@item.publishedDate" />
-                <label class="form-label mt-2">Author</label>
-                @foreach (var author in @item.authors)
-                {
-                    <input type="text" id="name" class="form-control mb-2" value="@author" />
-                }
-                <label class="form-label mt-2">Number of pages</label>
-                <input type="text" id="pageNumber" class="form-control" value="@item.pageCount" />
-                <label class="form-label mt-2">Cover</label>
-                <input type="text" id="cover" class="form-control" value="@item.printType" />
-                <label class="form-label mt-2">Language</label>
-                <input type="text" id="language" class="form-control" value="@item.language" />
-                <label class="form-label mt-2">Description</label>
-                <textarea id="description" class="form-control">@item.description</textarea>
-
-                <!-- TODO Modify this part so that categories are atuall categories from the database -->
-                <label class="form-label mt-2">Categories</label>
-                @foreach (var category in @item.categories)
-                {
-                    <input type="text" id="name" class="form-control mb-2" value="@category" />
-                }
+                    <table class="table table-light">
+                        <thead>
+                            <tr>
+                                <th><label class="form-label mt-2">Title</label></th>
+                                <th><label class="form-label mt-2">Image URL</label></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="text" id="title" class="form-control" value="@item.title"/>
+                                </td>
+                                <td><input type="text" id="imageUrl" class="form-control" value="@item.thumbnail" /></td>
+                            </tr>
+                            <tr>
+                                <th colspan="2" class="text-center"><label class="form-label mt-2">Image preview</label></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-center"><img id="imagePreview" style="width: 20%;"/></td>
+                            </tr>
+                            <tr>
+                                <table class="table table-light">
+                                    <thead>
+                                        <tr>
+                                            <th><label class="form-label mt-2">Publisher</label></th>
+                                            <th><label class="form-label mt-2">Published date</label></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="text" id="publisher" class="form-control" value="@item.publisher" /></td>
+                                            <td><input type="text" id="author" class="form-control" value="@item.publishedDate" /></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                            <tr>
+                                <table class="table table-light">
+                                    <thead>
+                                        <tr>
+                                            <th><label class="form-label mt-2">Author</label></th>
+                                            <th><label class="form-label mt-2">Language</label></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                            @foreach (var author in @item.authors)
+                                            {
+                                                    <input type="text" id="name" class="form-control mb-2" value="@author" />
+                                            }
+                                            </td>
+                                            <td><input type="text" id="language" class="form-control" value="@item.language" /></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                            <tr>
+                                <table class="table table-light">
+                                    <thead>
+                                        <tr>
+                                            <th><label class="form-label mt-2">Number of pages</label></th>
+                                            <th><label class="form-label mt-2">Cover</label></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="text" id="pageNumber" class="form-control" value="@item.pageCount" /></td>
+                                            <td><input type="text" id="cover" class="form-control" value="@item.printType" /></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                            <tr>
+                                <table class="table table-light">
+                                    <thead>
+                                        <tr>
+                                            <th><label class="form-label mt-2">Description</label></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><textarea id="description" class="form-control">@item.description</textarea></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                            <tr>
+                                <!-- TODO Modify this part so that categories are atuall categories from the database -->
+                                <th><label class="form-label mt-2">Categories</label></th>
+                                <td>
+                                @foreach (var category in @item.categories)
+                                {
+                                        <input type="text" id="name" class="form-control mb-2" value="@category" readonly />
+                                }
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="submit" class="btn btn-success">Add Book to Library</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
             }
         }
+        </div>
+
+        <div class="mb-3" id="result">
+        </div>
+
     </div>
-
-    <div class="mb-3" id="result">
-    </div>
-
-
-</div>
+</body>
 
 
 
@@ -56,5 +137,14 @@
 @section Scripts {
     <script>
         var editor = new FroalaEditor('#description');
+        var imageInputValue = document.getElementById("imageUrl");
+
+        imageInputValue.addEventListener("input", putInputValue);
+
+        function putInputValue() {
+            var imageSrcValue = document.getElementById("imageUrl").value;
+            var image = document.getElementById("imagePreview");
+            image.setAttribute('src', imageSrcValue);
+        }
     </script>
 }
