@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Add Category";
+}
+
+@model OnlineLibrary.Models.ViewModels.AddCategoryRequest
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <p>Use this page to add book categories to the Library.</p>
+    @using (Html.BeginForm("Add", "AdminCategories", FormMethod.Post))
+    {
+        <table class="table table-light">
+            <thead>
+                <tr>
+                    <th><label class="form-label mt-2">Category</label></th>
+                    <th><label class="form-label mt-2">Description</label></th>
+                    <th><label class="form-label mt-2">Parent Category</label></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" id="name" class="form-control" placeholder="Category name" required />
+                    </td>
+                    <td>
+                        <input type="text" id="description" class="form-control" placeholder="Description" required />
+                    </td>
+                    <td>
+                        <select class="form-select"><!-- asp-items="Model.ParentCategory" asp-for="SelectedTags"--> </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <button type="submit" class="btn btn-success">Add Category</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>

@@ -26,9 +26,9 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <input type="text" id="title" class="form-control" value="@item.title"/>
+                                    <input type="text" id="title" class="form-control" value="@item.title" required/>
                                 </td>
-                                <td><input type="text" id="imageUrl" class="form-control" value="@item.thumbnail" /></td>
+                                <td><input type="text" id="imageUrl" class="form-control" value="@item.thumbnail" required /></td>
                             </tr>
                             <tr>
                                 <th colspan="2" class="text-center"><label class="form-label mt-2">Image preview</label></th>
@@ -46,8 +46,8 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><input type="text" id="publisher" class="form-control" value="@item.publisher" /></td>
-                                            <td><input type="text" id="author" class="form-control" value="@item.publishedDate" /></td>
+                                            <td><input type="text" id="publisher" class="form-control" value="@item.publisher" required /></td>
+                                            <td><input type="text" id="author" class="form-control" value="@item.publishedDate" required /></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -65,10 +65,10 @@
                                             <td>
                                             @foreach (var author in @item.authors)
                                             {
-                                                    <input type="text" id="name" class="form-control mb-2" value="@author" />
+                                                    <input type="text" id="name" class="form-control mb-2" value="@author" required />
                                             }
                                             </td>
-                                            <td><input type="text" id="language" class="form-control" value="@item.language" /></td>
+                                            <td><input type="text" id="language" class="form-control" value="@item.language" required /></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -83,8 +83,8 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><input type="text" id="pageNumber" class="form-control" value="@item.pageCount" /></td>
-                                            <td><input type="text" id="cover" class="form-control" value="@item.printType" /></td>
+                                            <td><input type="text" id="pageNumber" class="form-control" value="@item.pageCount" required /></td>
+                                            <td><input type="text" id="cover" class="form-control" value="@item.printType" required /></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -98,7 +98,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><textarea id="description" class="form-control">@item.description</textarea></td>
+                                            <td><textarea id="description" class="form-control" required>@item.description</textarea></td>
                                         </tr>
                                     </tbody>
                                 </table>
