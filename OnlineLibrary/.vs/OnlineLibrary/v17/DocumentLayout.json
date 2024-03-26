@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\controllers\\admincategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|d:\\unityprojects\\git\\onlinelibrary\\onlinelibrary\\onlinelibrary\\views\\admincategories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Migrations\\20240326212942_Update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineLibrary\\Migrations\\20240326212942_Update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\models\\viewmodels\\addcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\viewmodels\\addcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\views\\admincategories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\views\\admincategories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\models\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\views\\browsebooks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +43,8 @@
       "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\views\\browsebooks\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|d:\\unityprojects\\git\\onlinelibrary\\onlinelibrary\\onlinelibrary\\models\\viewmodels\\addcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\viewmodels\\addcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|d:\\unityprojects\\git\\onlinelibrary\\onlinelibrary\\onlinelibrary\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\onlinelibrary\\models\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F8A4EE-DDB0-49B9-B1C3-BB18027C065B}|OnlineLibrary\\OnlineLibrary.csproj|solutionrelative:onlinelibrary\\models\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,32 +54,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-18T20:25:07.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
-              "RelativeDocumentMoniker": "OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
-              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
-              "RelativeToolTip": "OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T19:27:33.651Z",
+              "Title": "20240326212942_Update.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Migrations\\20240326212942_Update.cs",
+              "RelativeDocumentMoniker": "OnlineLibrary\\Migrations\\20240326212942_Update.cs",
+              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Migrations\\20240326212942_Update.cs",
+              "RelativeToolTip": "OnlineLibrary\\Migrations\\20240326212942_Update.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T21:29:42.212Z",
               "EditorCaption": ""
             },
             {
@@ -86,27 +77,40 @@
               "RelativeDocumentMoniker": "OnlineLibrary\\Controllers\\AdminCategoriesController.cs",
               "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Controllers\\AdminCategoriesController.cs",
               "RelativeToolTip": "OnlineLibrary\\Controllers\\AdminCategoriesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAawCcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T19:25:38.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "AddCategoryRequest.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
+              "RelativeDocumentMoniker": "OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
+              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
+              "RelativeToolTip": "OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:43:32.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LibraryDbContext.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Data\\LibraryDbContext.cs",
               "RelativeDocumentMoniker": "OnlineLibrary\\Data\\LibraryDbContext.cs",
               "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Data\\LibraryDbContext.cs",
               "RelativeToolTip": "OnlineLibrary\\Data\\LibraryDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T16:40:41.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "OnlineLibrary\\Repositories\\CategoryRepository.cs",
@@ -125,14 +129,14 @@
               "RelativeDocumentMoniker": "OnlineLibrary\\Models\\Domain\\Category.cs",
               "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\Domain\\Category.cs",
               "RelativeToolTip": "OnlineLibrary\\Models\\Domain\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T16:19:58.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\BrowseBooks\\Edit.cshtml",
               "RelativeDocumentMoniker": "OnlineLibrary\\Views\\BrowseBooks\\Edit.cshtml",
@@ -140,12 +144,49 @@
               "RelativeToolTip": "OnlineLibrary\\Views\\BrowseBooks\\Edit.cshtml",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T16:17:00.588Z",
+              "WhenOpened": "2024-03-19T16:17:00.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
+              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
+              "RelativeToolTip": "OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:58:03.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
+              "RelativeDocumentMoniker": "OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
+              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
+              "RelativeToolTip": "OnlineLibrary\\Views\\AdminCategories\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T19:27:33.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T20:25:07.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Browse.cshtml",
               "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Views\\BrowseBooks\\Browse.cshtml",
               "RelativeDocumentMoniker": "OnlineLibrary\\Views\\BrowseBooks\\Browse.cshtml",
@@ -153,34 +194,7 @@
               "RelativeToolTip": "OnlineLibrary\\Views\\BrowseBooks\\Browse.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T14:11:51.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddCategoryRequest.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
-              "RelativeDocumentMoniker": "OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
-              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
-              "RelativeToolTip": "OnlineLibrary\\Models\\ViewModels\\AddCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T19:43:32.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookViewModel.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
-              "RelativeDocumentMoniker": "OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
-              "ToolTip": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
-              "RelativeToolTip": "OnlineLibrary\\Models\\ViewModels\\BookViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T15:58:03.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T14:11:51.886Z"
             }
           ]
         }

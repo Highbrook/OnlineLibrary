@@ -21,13 +21,13 @@
             <tbody>
                 <tr>
                     <td>
-                        <input type="text" id="name" class="form-control" placeholder="Category name" required />
+                        <input type="text" id="name" class="form-control" placeholder="Category name" asp-for="Name" required />
                     </td>
                     <td>
-                        <input type="text" id="description" class="form-control" placeholder="Description" required />
+                        <input type="text" id="description" class="form-control" placeholder="Description" asp-for="Description" required />
                     </td>
                     <td>
-                        <select class="form-select"><!-- asp-items="Model.ParentCategory" asp-for="SelectedTags"--> </select>
+                        <select class="form-select" asp-for="ParentCategory"><!-- asp-items="Model.ParentCategory" --> </select>
                     </td>
                 </tr>
 

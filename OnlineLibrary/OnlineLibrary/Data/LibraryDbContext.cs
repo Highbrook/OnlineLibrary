@@ -8,5 +8,6 @@ namespace OnlineLibrary.Data
         public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options) { }
         public DbSet<Book> books { get; set; }
         public DbSet<Category> categories { get; set; }
+        public DbSet<Users> users { get; set; }
     }
 }

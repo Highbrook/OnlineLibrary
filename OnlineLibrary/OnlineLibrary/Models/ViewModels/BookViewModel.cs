@@ -5,6 +5,7 @@ namespace OnlineLibrary.Models.ViewModels
 {
     public class BookViewModel
     {
+        public Guid Id { get; set; }
         public string? searchForBook { get; set; }
         public string title { get; set; }
         public string[] authors { get; set; }

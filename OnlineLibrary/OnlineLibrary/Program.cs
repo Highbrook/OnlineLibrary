@@ -8,10 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LibraryDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("BlogDbConnectionString")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryDbConnectionString")));
 
 builder.Services.AddDbContext<AuthDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("BlogAuthDbConnectionString")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryAuthDbConnectionString")));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AuthDbContext>();
 builder.Services.Configure<IdentityOptions>(options =>
