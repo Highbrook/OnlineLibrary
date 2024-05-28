@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8hz1UYwnmBBkDSWatuKqNcXBUW9XK4VTaTE3raqagCM=",
+  "Hash": "F0jEvny+HOZovivtzgDJmkBYfivZtKP3ROhM0VitzEU=",
   "Source": "OnlineLibrary",
   "BasePath": "_content/OnlineLibrary",
   "Mode": "Default",
@@ -984,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\BackToTopButton.js"
+    },
+    {
+      "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\ReloadPageButton.js",
+      "SourceId": "OnlineLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\",
+      "BasePath": "_content/OnlineLibrary",
+      "RelativePath": "js/ReloadPageButton.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ReloadPageButton.js"
     },
     {
       "Identity": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\site.js",

@@ -7,7 +7,7 @@ namespace OnlineLibrary.Models.Domain
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public string parentCategoryId { get; set;}
+        public Guid? parentCategoryId { get; set;}
         public ICollection<BookViewModel> Books { get; set; }
 
     }

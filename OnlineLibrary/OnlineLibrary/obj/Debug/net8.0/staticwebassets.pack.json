@@ -201,6 +201,10 @@
       "PackagePath": "staticwebassets\\js\\BackToTopButton.js"
     },
     {
+      "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\ReloadPageButton.js",
+      "PackagePath": "staticwebassets\\js\\ReloadPageButton.js"
+    },
+    {
       "Id": "D:\\UnityProjects\\Git\\OnlineLibrary\\OnlineLibrary\\OnlineLibrary\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

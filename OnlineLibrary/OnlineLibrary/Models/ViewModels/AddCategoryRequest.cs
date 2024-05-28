@@ -10,6 +10,6 @@ namespace OnlineLibrary.Models.ViewModels
         [Required]
         public string Description { get; set; }
         [Required]
-        public string ParentCategory { get; set; }
+        public string? ParentCategory { get; set; }
     }
 }

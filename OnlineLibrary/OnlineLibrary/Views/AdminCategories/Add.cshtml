@@ -8,6 +8,19 @@
     <h1>@ViewData["Title"]</h1>
 
     <p>Use this page to add book categories to the Library.</p>
+
+    @{
+        if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["SuccessMessage"]
+                <button type="button" class="close" id="reloadBtn" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+    }
+
     @using (Html.BeginForm("Add", "AdminCategories", FormMethod.Post))
     {
         <table class="table table-light">
@@ -27,7 +40,9 @@
                         <input type="text" id="description" class="form-control" placeholder="Description" asp-for="Description" required />
                     </td>
                     <td>
-                        <select class="form-select" asp-for="ParentCategory"><!-- asp-items="Model.ParentCategory" --> </select>
+                        <select asp-for="ParentCategory" class="form-control" asp-items="ViewBag.Categories">
+                            <option value="">-- Select Parent Category --</option>
+                        </select>
                     </td>
                 </tr>
 
@@ -40,3 +55,5 @@
         </table>
     }
 </div>
+
+<script src="ReloadPageButton.js"></script>
